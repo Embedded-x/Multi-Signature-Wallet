@@ -1,0 +1,18 @@
+[package]
+name = "Multi-Signature-Wallet"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x315a0afb67ba1b3d712b42194cdc515f83ce195c7d9016f48cc5bf4688c5da79"
+
+
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
